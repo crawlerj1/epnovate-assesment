@@ -1,0 +1,14 @@
+[project]
+name = "mcp1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=3.2.1",
+    "crawl4ai>=0.9.5",
+    "groq>=1.7.0",
+    "mcp[cli]>=2.3.0",
+    "openai>=3.55.0",
+    "pydantic>=2.14.3",
+]
